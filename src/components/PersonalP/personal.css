@@ -1,0 +1,129 @@
+.professional-portfolio-container {
+    background: rgba(147, 107, 232, 0.05);
+    margin-left: 135px;
+    margin-right: 135px;
+}
+.personal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 49px;
+    margin-left: 120px;
+    max-width: 1250px;
+}
+.personal-content > h4 {
+    color: #8C89A2;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.personal-content > h2 {
+    color: #3F3A64;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+}
+.personal-content > p {
+    color: #696969;
+    font-family: Jost;
+    font-size: 19.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 145.833% */
+}
+.personal-content > .portfolio-btn {
+    border-radius: 10px;
+    border: 1px solid #7D11F9;
+    background: #7D11F9;
+}
+.portfolio-btn {
+    width: 150px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+}
+.portfolio-btn > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsive adjustments for 768px */
+@media (max-width: 768px) {
+    .personal-portfolio-container {
+        margin: 0 20px; /* Adjust margins for narrower layout */
+    }
+
+    .personal-content {
+        margin: 0;
+        padding-top: 20px; /* Adjust padding for narrower layout */
+    }
+
+    .personal-content > h4 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .personal-content > h2 {
+        font-size: 32px;
+        line-height: 38.4px;
+    }
+
+    .personal-content > p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .portfolio-btn {
+        width: 120px;
+        height: 37px;
+        font-size: 14px;
+    }
+}
+
+/* Responsive adjustments for 414px */
+@media (max-width: 414px) {
+    .personal-content > h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .personal-content > p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+/* Responsive adjustments for 412px */
+@media (max-width: 412px) {
+    .personal-content > h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .personal-content > p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+/* Responsive adjustments for 375px */
+@media (max-width: 375px) {
+    .personal-content > h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .personal-content > p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

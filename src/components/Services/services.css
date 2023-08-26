@@ -1,0 +1,58 @@
+.services-section {
+    margin-top: 49px;
+}
+.services-section > h4  {
+    color: #8C89A2;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.services-section > h2 {
+    color: #3F3A64;
+    text-align: center;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; 
+}
+.services > h3 {
+    color: #3F3A64;
+    font-family: Jost;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 100% */
+    opacity: 0.07;
+}
+.services > h4 {
+    color: #3F3A64;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.8px; /* 120% */
+}
+.services > p {
+    max-width: 450px;
+    color: #696969;
+    font-family: Jost;
+    font-size: 19.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 145.833% */
+}
+.services > a {
+    color: #3F3A64;
+    font-family: Jost;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.5px; /* 150% */
+    text-transform: capitalize;
+}
