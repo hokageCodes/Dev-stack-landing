@@ -1,7 +1,14 @@
 .services-section {
     margin-top: 49px;
+    padding-bottom: 20px;
+}
+.service-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 .services-section > h4  {
+    margin-bottom: 22px;
     color: #8C89A2;
     text-align: center;
     font-family: Jost;
@@ -20,8 +27,19 @@
     font-style: normal;
     font-weight: 400;
     line-height: 48px; 
+    margin-bottom: 22px;
+}
+.service-cards {
+    width: 372.33px;
+    height: 343.3px;
+    border-radius: 10px;
+    border: 1px solid rgba(147, 107, 232, 0.05);
+    background: rgba(147, 107, 232, 0.05);
 }
 .services > h3 {
+    padding-top: 31px;
+    padding-right: 38px;
+    margin-bottom: 7px;
     color: #3F3A64;
     font-family: Jost;
     font-size: 60px;
@@ -29,6 +47,7 @@
     font-weight: 500;
     line-height: 60px; /* 100% */
     opacity: 0.07;
+    text-align: right;
 }
 .services > h4 {
     color: #3F3A64;
@@ -37,8 +56,11 @@
     font-style: normal;
     font-weight: 600;
     line-height: 28.8px; /* 120% */
+    padding-left: 31px;
+    margin-bottom: 15.8px;
 }
 .services > p {
+    padding-left: 31px;
     max-width: 450px;
     color: #696969;
     font-family: Jost;
@@ -46,8 +68,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 28px; /* 145.833% */
+    margin-bottom: 20px;
 }
 .services > a {
+    padding-left: 31px;
     color: #3F3A64;
     font-family: Jost;
     font-size: 17px;
@@ -55,4 +79,95 @@
     font-weight: 600;
     line-height: 25.5px; /* 150% */
     text-transform: capitalize;
+}
+
+/* Responsive adjustments for 768px */
+@media (max-width: 769px) {
+    .services-section {
+        margin-top: 20px;
+    }
+
+    .service-cards-container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .service-cards {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .services > h3 {
+        text-align: center;
+        padding: 20px 0;
+        opacity: 0.07;
+    }
+
+    .services > h4 {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 0;
+    }
+
+    .services > p {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .services > a {
+        padding: 0;
+    }
+}
+
+/* Responsive adjustments for 414px */
+@media (max-width: 415px) {
+    .services {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .services > h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .services > p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/* Responsive adjustments for 412px */
+@media (max-width: 413px) {
+    .services {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .services > h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .services > p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/* Responsive adjustments for 375px */
+@media (max-width: 376px) {
+    .services {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .services > h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .services > p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }

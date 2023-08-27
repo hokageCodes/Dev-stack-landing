@@ -1,0 +1,101 @@
+.achievment-container {
+    padding-top: 49px;
+    background: rgba(147, 107, 232, 0.05);
+}
+.achievment-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    width: 1200px;
+    height: 394px;
+}
+.achievment-content > h4 {
+    padding-top: 50px;
+    color: #8C89A2;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.achievment-content > h2 {
+    color: #3F3A64;
+    text-align: center;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+    margin-bottom: 43px;
+}
+.each-acheivment {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.acheivment > img {
+    margin-bottom: 99px;
+}
+
+/* Responsive adjustments for 768px */
+@media (max-width: 768px) {
+    .achievment-container {
+        padding-top: 20px;
+    }
+
+    .achievment-content {
+        margin-left: 20px;
+        width: auto;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .achievment-content > h4 {
+        padding-top: 20px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .achievment-content > h2 {
+        font-size: 32px;
+        line-height: 38.4px;
+        margin-bottom: 30px;
+    }
+
+    .each-acheivment {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .acheivment > img {
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive adjustments for 414px */
+@media (max-width: 414px) {
+    .achievment-content > h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+/* Responsive adjustments for 412px */
+@media (max-width: 412px) {
+    .achievment-content > h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+
+/* Responsive adjustments for 375px */
+@media (max-width: 375px) {
+    .achievment-content > h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
